@@ -11,7 +11,6 @@ enum Role {
 }
 
 const divide = (role: Role) => {
-  // TODO: switch문을 활용하여 각각의 role에 따라 다른 메세지를 출력하도록 작성해주세요.
   switch (role) {
     case Role.ADMIN:
       console.log('ADMIN');
