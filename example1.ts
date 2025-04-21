@@ -19,13 +19,6 @@ const divide = (role: Role) => {
     case Role.USER:
       console.log('USER');
       break;
-
-    case Role.GUEST:
-      console.log('GUEST');
-      break;
-
-    default:
-      break;
   }
 };
 
